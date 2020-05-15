@@ -60,17 +60,14 @@ input {
   opacity: 0.5;
 }
 .show-more {
+  /*text-align: right;*/
   -webkit-text-fill-color: black;
-  text-align: right;
-  opacity: 0.4;
-  letter-spacing: 3px;
-  font-size: 0.85em;
   margin: -20px 0 20px 0;
-  transition-duration: .5s;
+  transition-duration: .25s;
 }
 
 .show-more:hover {
-  opacity: 1;
+  opacity: .7;
 }
 
 .bg-text,
