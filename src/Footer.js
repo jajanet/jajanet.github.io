@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => (
   <footer>
-    <span>Made with ♥ by Janet | Last Updated 3/2020</span>
+    <span>Made with ♥ by Janet | Last Updated May 2020</span>
     <div>
       <a href="https://www.linkedin.com/in/janet-vu" target="blank">
         <i className="im im-linkedin" />

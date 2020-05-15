@@ -11,7 +11,6 @@ body {
   display: flex;
   flex-flow: row wrap;
   flex-direction: column;
-  align-items: flex-start;
   text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.15);
 }
 
@@ -67,6 +66,7 @@ input {
   letter-spacing: 3px;
   font-size: 0.85em;
   margin: -20px 0 20px 0;
+  transition-duration: .5s;
 }
 
 .show-more:hover {
@@ -145,15 +145,30 @@ h4 {
   -webkit-text-fill-color: white;
   font-size: 1em;
   font-weight: 100;
+  background-position-y: 80%;
 }
 
-.bg-left {	
+.bg-left {
   background-position-x: 25%;
-  background-position-y: 80%;
 }
 
 .bg-right {
   background-position-x: 75%;
-  background-position-y: 80%;
+}
+
+.bg-1 {	
+  background-position-x: 15%;
+}
+
+.bg-2 {	
+  background-position-x: 35%;
+}
+
+.bg-3 {	
+  background-position-x: 55%;
+}
+
+.bg-4 {
+  background-position-x: 75%;
 }
 
