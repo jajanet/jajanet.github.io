@@ -141,10 +141,19 @@ h4 {
   opacity: 1;
   opacity: 0.75;
   display: inline-block;
-  background-position-x: 25%;
-  background-position-y: 80%;
   /* -webkit-background-clip: none; */
   -webkit-text-fill-color: white;
   font-size: 1em;
   font-weight: 100;
 }
+
+.bg-left {	
+  background-position-x: 25%;
+  background-position-y: 80%;
+}
+
+.bg-right {
+  background-position-x: 75%;
+  background-position-y: 80%;
+}
+
