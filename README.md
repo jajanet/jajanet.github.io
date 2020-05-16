@@ -1,5 +1,4 @@
-## Welcome to my personal site's repo!
- [Visit it here](https://jajanet.github.io)
+[Visit my personal site here](https://jajanet.github.io)
 
 ### TODO
 - Add more info on education
