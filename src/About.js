@@ -12,10 +12,10 @@ const About = () => {
           after=" the Grand Rapids Michigan area "
         />
           studying Computer Science at University of Michigan.
-              <br />
-        <br />
+              <br /><br />
           I'll be a Software Engineering Intern at Google and Confluent for
           the summer and fall of 2020 respectively.
+              <br /><br />
         <ToggleText
           hidden={
             <p>
