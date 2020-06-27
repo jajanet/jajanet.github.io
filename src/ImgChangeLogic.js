@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 
-import { bgs, updateImg } from "./backgrounds.js";
+import { bgs, updateImg, preloadImages } from "./backgrounds.js";
 
 function useInterval(callback, delay) {
   const savedCallback = useRef();
@@ -26,6 +26,9 @@ const ImageChangeLogic = () => {
   const [changeBgOn, setChangeBg] = useState(true);
   const [delay, setDelay] = useState(3500);
   const [delayTemp, setDelayTemp] = useState(3500); // holds delay when paused
+
+  // Preload images
+  preloadImages();
 
   useInterval(() => {
     setBgIdx(bgIdx => (bgIdx + 1) % bgs.length);

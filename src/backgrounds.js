@@ -14,6 +14,9 @@ export const bgs = [
   "https://66.media.tumblr.com/7cbd49cfa3474ebcb58be505b09a4848/tumblr_inline_n25dm6hLOg1qhwjx8.gif"
 ];
 
+var preloadedImages = [];
+
+// Updates all elements of a classname to an image based on a delay
 export const updateImg = (name, idx, delay) => {
   for (const elt of document.getElementsByClassName(name)) {
     elt.setAttribute(
@@ -27,3 +30,11 @@ export const updateImg = (name, idx, delay) => {
     );
   }
 };
+
+export const preloadImages = () => {
+  for (const elt of bgs) {
+   let img = new Image();
+   img.src = elt;
+   preloadedImages.push(img);
+  }
+}
