@@ -1,6 +1,6 @@
 body {
   text-transform: lowercase;
-  color: #353535;
+  color: #696969;
   font-size: 1.6em;
   font-family: monospace;
   /* background-color: rgb(255, 255, 189); */
@@ -16,13 +16,13 @@ body {
 
 .container {
   margin-top: 20px;
+  display: grid;
 }
 
 .content {
   text-shadow: none;
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: transparent;
   background-image: linear-gradient(
     to bottom right,
     black,
@@ -68,10 +68,15 @@ input {
   /*text-align: right;*/
   -webkit-text-fill-color: black;
   margin: -20px 0 20px 0;
-  transition-duration: .25s;
+  transition-duration: .5s;
 }
 
-.show-more:hover {
+svg {
+  transition-duration: .25s;
+
+}
+
+.show-more:hover, svg:hover {
   opacity: .7;
 }
 
@@ -89,7 +94,7 @@ input {
 .bg-inner {
   background-color: white;
   padding: 10px;
-  width: -webkit-fill-available;
+  width: stretch;
   display: inline-block;
 }
 
@@ -109,19 +114,52 @@ h4 {
   margin: 0;
 }
 
+.social-icons {
+  justify-self: left;
+  bottom: 0;
+  position: fixed;
+  background-color: transparent;
+}
+
 .input,
 .controls {
-  position: absolute;
+  position: fixed;
+  top: 10px
 }
 
 .controls {
-  right: 20px;
-  top: 20px;
+  justify-self: right;
+}
+
+.controls svg {
+  padding: 5px
 }
 
 .input {
   left: 30px;
   top: 30px;
+}
+
+a {
+  cursor: crosshair;
+  transition-duration: .25s;
+  text-decoration: none;
+  color: black;
+}
+
+.regular-link, #temp:hover {
+  opacity: .45;
+}
+
+a:hover, .bg:hover {
+  transition-duration: .25s;
+  text-decoration: strike-through;
+  opacity: 1;
+}
+
+svg {
+  /* filter: drop-shadow(0.5px 0.7px 0.5px rgba(0, 0, 0, 0.6)); */
+  filter: drop-shadow(0.75px 1px 1px rgba(0, 0, 0, 0.4));
 }
 
 .links a {
@@ -131,9 +169,13 @@ h4 {
   text-decoration: none;
 }
 
-.bg:hover {
-  text-decoration: strike-through;
-  opacity: 1;
+#temp {
+  transition-duration: 4.5s;
+  font-size: 18px;
+}
+
+#temp:hover {
+  font-size: 36px;
 }
 
 .bg {
