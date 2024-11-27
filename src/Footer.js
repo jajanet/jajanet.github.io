@@ -39,7 +39,7 @@ const Footer = () => (
     <span className="web-info">Made with ♥ by Janet | Last Updated December 2024</span>
     <div className="social-icons">
       {socialIcons.map((iconPair, index) => (
-        <a className="im" href={iconPair[0]} target="_blank" key={index}>
+        <a className="im" href={iconPair[0]} target="_blank" key={index} rel="noopener noreferrer">
           <SvgIcon index={index} height={30} width={30} pattern={iconPair[1]} />
         </a>
       ))}

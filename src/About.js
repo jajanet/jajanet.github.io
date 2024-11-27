@@ -10,7 +10,7 @@ const About = () => {
           <ToggleText before=" Michigan" after=" the Grand Rapids Michigan area"/>! 〽️
           <br /><br />
           I'm a Software Engineer, working on
-          <a className="regular-link" href="https://checks.google.com/" target="_blank"> Google's Area120 Checks</a> product ✅
+          <a className="regular-link" href="https://checks.google.com/" target="_blank" rel="noopener noreferrer"> Google's Area120 Checks</a> product ✅
           <IconRow />
         <ToggleText
           hidden={

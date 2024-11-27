@@ -1,4 +1,4 @@
-import React, {Fragment} from "react";
+import React from "react";
 
 export const pauseIcon = "M11 22h-4v-20h4v20zm6-20h-4v20h4v-20z";
 export const playIcon = "M3 22v-20l18 10-18 10z";
