@@ -2,7 +2,7 @@
   "name": "cz4e7",
   "version": "0.0.0",
   "homepage": "https://jajanet.github.io/",
-  "description": "React example starter project",
+  "description": "human software engineer",
   "keywords": [
     "react",
     "starter"
@@ -23,11 +23,10 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -b gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
-    "not dead",
     "not ie <= 11",
     "not op_mini all"
   ]

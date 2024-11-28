@@ -33,13 +33,13 @@ const About = () => {
                 after=" lifelong technology lover, I started creating HTML/CSS webpages and MS Paint
 			  		graphics on Neopets as a creative outlet at the age of 10 🎨 🖌️ With that, "
               />
-			  this field always made the most sense for me. Learning and collaborating with people is so fun!! 😛 👯 🧑‍🤝‍🧑
+			  this field always made the most sense for me. Learning and collaborating with people is so fun too!! 😛 👯 🧑‍🤝‍🧑
               <IconRow />
               Outside of computers, my hobbies include: health 🍎, fitness 💪, cooking 🔪, thrifting ♻️,
               playing
               <ToggleText before=" video games 🎮" after=" video games (mostly any Pokemon game 🐉 lol)"/>
               <IconRow />
-              Some other things that I like too much include animals,(especially my rat terrier chihuahua) 🐶 🐾, fanny packs, and Crocs 🐊
+              Some other things that I like too much include animals (especially my rat terrier chihuahua 🐶) 🐾, fanny packs, and Crocs 🐊
             <br/>
             <br/>
             <br/>
